@@ -1,5 +1,5 @@
 import React , {Component} from 'react';
-import { Navbar,NavbarBrand } from 'reactstrap';
+//import { Navbar,NavbarBrand } from 'reactstrap';
 import Menu from './components/MenuComponent';
 import { DISHES } from './shared/dishes';
 
@@ -16,12 +16,7 @@ class App extends Component {
         
         return (
         <div >
-            <Navbar dark color="primary">
-                <div className="container">  <NavbarBrand href="#">
-                    Beyond Baking
-                    </NavbarBrand>
-                </div >
-            </Navbar>
+            
             <Menu dishes={this.state.dishes} />
         </div >
 

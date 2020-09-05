@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+        <!-- other -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+       <link href="css/styles.css" rel="stylesheet">
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+         <!-- other -->
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,11 +36,88 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Beyond Baking</title>
   </head>
   <body>
+    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+             <a class="navbar-brand" href="#">BEYOND BAKING</a>
+             <div class="collapse navbar-collapse" id="Navbar">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./aboutus.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+            </div>
+                          
+      </div>
+  </nav>
+    <header class="jumbotron">
+      <div class="container">
+        <div class="row row row-header">
+          
+            <div class="col-12 col-sm-6">
+                <h1>BEYOND BAKING</h1>
+                <p>FUSIONS BEYOND IMAGINATION</p>
+            </div>
+            <div class="col-12 col-sm">
+          </div>
+        </div>
+    </div>
+
+    </header>
+
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+    </div>
+
+
+    <footer class="footer"> 
+      <div class="container">
+      <div class="row">
+        <div class="col-4 offset-1 col-sm-2">
+              <h5>Links</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Menu</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+          <div class="col-7 col-sm-5">
+              <h5>Our Address</h5>
+              <address>
+            Indore<br>
+            xyz<br>
+            Indore<br>
+            Tel.: +852 1234 5678<br>
+            Email: <a href="mailto:jaryan166@gmail.com">jaryan166@gmail.com</a>
+         </address>
+          </div>
+          <div class="col-12 col-sm-4">
+              <div class="text-centre">
+                  <a href="http://google.com/+">Google+</a>
+                  <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
+                  <a href="http://www.instagram.com/in/">Instagram</a>
+                  <a href="http://twitter.com/">Twitter</a>
+                  <a href="http://youtube.com/">YouTube</a>
+                  <a href="mailto:">Mail</a>
+              </div>
+          </div>
+     </div>
+     <div class="row justify-content-center">             
+          <div class="col-auto">
+              <p>© Copyright Muskan Agrawal</p>
+          </div>
+     </div>
+  </div>
+
+    </footer>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
